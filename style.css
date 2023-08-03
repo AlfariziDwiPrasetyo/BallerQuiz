@@ -1,0 +1,83 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.title{
+    margin-left: 12px;
+    color: #00008B;
+    font-weight:bold;
+}
+.container{
+    width: 500px;
+    margin-top:50px;
+    margin-bottom:20px;
+    margin:0 auto;
+}
+.container .btn{
+    font-family: 'Poppins', sans-serif;
+    font-weight:bold;
+    background-color:#fff;
+    width:100%;
+    margin-top:30px;
+    padding:10px 10px;
+    border-radius: 4px;
+    cursor:pointer;
+}
+
+.btn:hover:not([disabled]){
+    box-shadow: 10px 10px 0px -2px rgba(0,0,0,0.75);
+    transform: translateY(-2px);
+    transition: transform 0.3s ease;
+}
+
+.btn:disabled{
+    cursor: no-drop;
+}
+
+.submit{
+    font-family: 'Poppins', sans-serif;
+    font-weight:bold;
+    background-color: #000;
+    color: #fff;
+    margin-top:20px;
+    width:100%;
+    padding:10px 10px;
+    border-radius: 4px;
+    cursor:pointer;
+    border:#000;
+    transition-property: background-color;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+    display: none;
+}
+
+.submit:hover{
+    background-color: #00008b;
+}
+.correctBtn{
+    border-color:green;
+    color:green;
+}
+.correctBtn:hover{
+    box-shadow: 10px 10px 0px -2px green;
+    transform: translateY(-2px);
+    transition: transform 0.3s ease;
+}
+
+.incorrectBtn{
+    border-color: #ff0000;
+    color:red;
+}
+
+.incorrectBtn:hover{
+    box-shadow: 10px 10px 0px -2px red;
+    transform: translateY(-2px);
+    transition: transform 0.3s ease;
+}
+
+.footer{
+    margin-top: 100px;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+}
