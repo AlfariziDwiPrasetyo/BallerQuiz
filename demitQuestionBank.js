@@ -68,8 +68,8 @@ const demitQuestion = {
                 question:"Tim mana saja yang dikalahkan Real Madrid saat Final UCL thn 2016,2017,2018 secara berurutan ?",
                 answer:[
                     {text:"King Emyu, King Emyu, King Emyu", correct:false},
-                    {text:"Atletico Madrid, Juventus, Liverpool", correct:false},
-                    {text:"Liverpool, Juventus, Atletico Madrid", correct:true},
+                    {text:"Atletico Madrid, Juventus, Liverpool", correct:true},
+                    {text:"Liverpool, Juventus, Atletico Madrid", correct:false},
                     {text:"Juventus, Liverpool, Atletico Madrid", correct:false}
                 ]},
             {
