@@ -4,8 +4,10 @@ body{
 
 .title{
     margin-left: 12px;
-    color: black;
     font-weight:bold;
+}
+h1 .title{
+    color: black;
 }
 .title a{
     text-decoration: none;
@@ -102,6 +104,7 @@ body{
 }
 
 .footer a{
+    color: black;
     text-decoration: none;
 }
 
