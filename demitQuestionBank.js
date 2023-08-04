@@ -9,9 +9,9 @@ const demitQuestion = {
                 {text:"14", correct:true}
         ]},
         {
-            question:"Siapa top scorer of all time di Real Mardid ⚽⚽ ?",
+            question:"Siapa top scorer of all time di Real Mardid ⚽ ?",
             answer:[
-                {text:"CRISTIAANOOO SIUUUUU", correct:true},
+                {text:"CRISTIAANOOO SIUUUUU 🐐🐐", correct:true},
                 {text:"Raul Gonzalez", correct:false},
                 {text:"Ferenc Puskas", correct:false},
                 {text:"Wak Haji Benzema", correct:false}
@@ -19,7 +19,7 @@ const demitQuestion = {
         {
             question:"Siapa pemain yang paling banyak tampil di Real Madrid 🧔 ? ",
             answer:[
-                {text:"Bang SIUUUUU CR7", correct:false},
+                {text:"Bang SIUUUUU CR7 🐐🐐", correct:false},
                 {text:"Raul Gonzalez", correct:false},
                 {text:"Sergio Ramoz", correct:true},
             {text:"Alfredo de stefano", correct:false}
@@ -52,7 +52,7 @@ const demitQuestion = {
                 question:"Dimana Santiago Bernabau berada 🏟️ ? ",
                 answer:[
                     {text:"Getage", correct:false},
-                    {text:"Cirebon ngalor titik", correct:false},
+                    {text:"Cirebon ngalor sitik", correct:false},
                     {text:"Alcoron", correct:false},
                     {text:"Chamartin", correct:true}
                 ]},
@@ -62,7 +62,7 @@ const demitQuestion = {
                     {text:"David Beckham", correct:false},
                     {text:"Zinedine Zidane", correct:true},
                     {text:"Roberto Carlos", correct:false},
-                    {text:"Alfarizi Dwi Prasetyo", correct:false}
+                    {text:"Cristiano Prasetyo 🐐🐐", correct:false}
                 ]},
             {
                 question:"Tim mana saja yang dikalahkan Real Madrid saat Final UCL thn 2016,2017,2018 secara berurutan ?",
@@ -92,7 +92,7 @@ const demitQuestion = {
                 question:"Siapa presiden paling legendaris Real Mardid ?",
                 answer:[
                     {text:"Santiago Bernabeu", correct:true},
-                    {text:"Alfarizi D Prasetyo", correct:false},
+                    {text:"Cristiano Prasetyo", correct:false},
                     {text:"Julian Palacios", correct:false},
                     {text:"Florentina Perez", correct:false}
                 ]},
@@ -110,7 +110,7 @@ const demitQuestion = {
                     {text:"Nike", correct:false},
                     {text:"Puma", correct:false},
                     {text:"Eiger", correct:false},
-                    {text:"Adidiodas", correct:true}
+                    {text:"Adiodas", correct:true}
                 ]},
             {
                 question:"Apa nama supporter untuk real madrid ?",

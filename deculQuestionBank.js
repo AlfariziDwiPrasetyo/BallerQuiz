@@ -3,90 +3,90 @@ const deculQuestion = {
         {
             question:"Siapa GOAT sebenarnya ?",
             answer:[
-                {text:"CRISTIANOOOOO SIUUUUU", correct:true},
+                {text:"CRISTIANOOOOO SIUUUUU 🐐", correct:true},
                 {text:"Naruto", correct:false},
-                {text:"ANKARA MESSI", correct:true},
+                {text:"ANKARA MESSI 🐐", correct:true},
                 {text:"Kambing", correct:false}
         ]},
         {
-            question:"Siapa top scorer of all time di Real Mardid ?",
+            question:"Sebelum strip biru merah 🔴🔵 apa warna strip barcelona ? ",
             answer:[
-                {text:"CRISTIAANOOO SIUUUUU", correct:true},
-                {text:"Raul Gonzalez", correct:false},
-                {text:"Ferenc Puskas", correct:false},
-                {text:"Wak Haji Benzema", correct:false}
+                {text:"Putih Hitam ⚪️⚫️", correct:false},
+                {text:"Putih biru ⚪️🔵", correct:false},
+                {text:"Merah Putih ⚪️🔴", correct:true},
+                {text:"Merah Merah 🔴🔴", correct:false}
         ]},
         {
-            question:"Siapa pemain yang paling banyak tampil di Real Madrid ? ",
+            question:"Berapa Kapasitas Stadium CAMP NOU 🏟️",
             answer:[
-                {text:"Bang SIUUUUU CR7", correct:false},
-                {text:"Raul Gonzalez", correct:false},
-                {text:"Sergio Ramoz", correct:true},
-            {text:"Alfredo de stefano", correct:false}
+                {text:"99.354", correct:true},
+                {text:"90.000", correct:false},
+                {text:"89.021", correct:false},
+            {text:"98.980", correct:false}
         ]},
         {
-            question:"Siapa kiper terbaik real madrid pada tahun 1990 - 2000 an ? ",
+            question:"Siapa top scorer of all time Barcelona ?",
             answer:[
-                {text:"Fransisco Buyo", correct:false},
-                {text:"Iker Casillas", correct:true},
-                {text:"King David De Gea", correct:false},
-                {text:"Diego Lopez", correct:false}
+                {text:"Andreas Iniesta", correct:false},
+                {text:"LIONEL MESSIUN 🐐", correct:true},
+                {text:"Ronaldinho", correct:false},
+                {text:"Xavi hernandes", correct:false}
             ]},
             {
-                question:"Berapa piala UCL yang dimenangkan Real Marid saat dilatih oleh Jose Mourinho",
+                question:"Siapa pelatih 🧔 yang mengembangkan taktik 'tiki-taka' ? ",
                 answer:[
-                    {text:"1", correct:false},
-                    {text:"3", correct:false},
-                    {text:"0", correct:true},
-                    {text:"2", correct:false}
+                    {text:"Louis Van Gaal", correct:false},
+                    {text:"Jose Mourinho", correct:false},
+                    {text:"Pep Guardiola", correct:true},
+                    {text:"Johan Cruyff", correct:false}
                 ]},
             {
-                question:"Siapa Player legend yang dijuluki 'The Blonde Arrow' ?",
+                question:"Pada tahun 2009 barcelona mencapai treble 🏆🏆🏆 dengan meraih apa ?",
                 answer:[
-                    {text:"Ferenc Puskas", correct:true},
-                    {text:"THE GOAT CRISTIAAAANOOO", correct:false},
-                    {text:"Emilio Butragueno", correct:false},
-                    {text:"Hugo Sanchez", correct:false}
+                    {text:"UCL, Copa Del Rey, Piala Super Spanyol", correct:false},
+                    {text:"Piala Super Spanyol, La Liga, UCL", correct:false},
+                    {text:"Copa Del Rey, UCL, BRI LIGA 1", correct:false},
+                    {text:"UCL, La Liga, Copa Del Rey", correct:true}
                 ]},
             {
-                question:"Dimana Santiago Bernabau berada ? ",
+                question:"Siapa pemain barcelona yang menyandang julukan 'El Capitan' ? ",
                 answer:[
-                    {text:"Getage", correct:false},
-                    {text:"Cirebon ngalor titik", correct:false},
-                    {text:"Alcoron", correct:false},
-                    {text:"Chamartin", correct:true}
+                    {text:"Xavi Hernandes", correct:false},
+                    {text:"Gerard Pique", correct:false},
+                    {text:"Carles Puyol", correct:true},
+                    {text:"KING MESSI", correct:false}
                 ]},
             {
-                question:"Siapa yang mencetak gol kemenangan untuk real madrid saat final liga champion lawan bayern laverkusen ",
+                question:"Siapakah pelatih yang memimpin barcelona saat meraih treble musim 2014/2015 ?",
                 answer:[
-                    {text:"David Beckham", correct:false},
-                    {text:"Zinedine Zidane", correct:true},
-                    {text:"Roberto Carlos", correct:false},
-                    {text:"Alfarizi Dwi Prasetyo", correct:false}
+                    {text:"Tito Vilanova", correct:false},
+                    {text:"Luis Enrique", correct:true},
+                    {text:"Ernesto Valverde", correct:false},
+                    {text:"Frank Rikjard", correct:false}
                 ]},
             {
-                question:"Tim mana saja yang dikalahkan Real Madrid saat Final UCL thn 2016,2017,2018 secara berurutan ?",
+                question:"Siapa yang mencetak gol di menit menit akhir pada final liga champion thn 2010/2011 dan mengalahkan king emyu ?",
                 answer:[
-                    {text:"King Emyu, King Emyu, King Emyu", correct:false},
-                    {text:"Atletico Madrid, Juventus, Liverpool", correct:false},
-                    {text:"Liverpool, Juventus, Atletico Madrid", correct:true},
-                    {text:"Juventus, Liverpool, Atletico Madrid", correct:false}
+                    {text:"Lionel Messi", correct:false},
+                    {text:"David Villa", correct:true},
+                    {text:"Xavi Hernandes", correct:false},
+                    {text:"Cristian Gonzalez 🐐", correct:false}
                 ]},
             {
-                question:"Siapa yang mengalahkan Real Madrid saat International Champions Cup 2018",
+                question:"Siapa yang di kalahkan barca pada final liga champion saat tahun 2009, 20011 ?(ketauan banget tuh bayar wasitnya 😂)",
                 answer:[
+                    {text:"Real Madrid", correct:false},
                     {text:"King Emyu", correct:true},
-                    {text:"Barkelona", correct:false},
-                    {text:"Liverpool", correct:false},
+                    {text:"Persipura", correct:false},
                     {text:"Bayern Munchen", correct:false}
                 ]},
             {
-                question:"Dibawah ini yang bukan pemain real madrid musim 2017/2018 adalah",
+                question:"Pada tahun berapa messi mencetak rekor 91 goals ⚽⚽ dalam 1 musim ?",
                 answer:[
-                    {text:"Kiko Casilla", correct:false},
-                    {text:"Lucas Vasquez", correct:false},
-                    {text:"Dani Ceballos", correct:false},
-                    {text:"Lucas Torro", correct:true}
+                    {text:"2009", correct:false},
+                    {text:"2010", correct:false},
+                    {text:"2012", correct:true},
+                    {text:"2011", correct:false}
                 ]},
         
     ]

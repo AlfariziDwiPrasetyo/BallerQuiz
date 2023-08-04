@@ -19,7 +19,10 @@ function startQuiz(){
 function showQuestionDemit(){
 
     removePreviousQuestion()
-
+    if(answerButton.style.display  == "block"){
+        answerButton.style.display = "none"
+        console.log(answerButton.style.display)
+    }
     let currentQuestion = questionData.demit[currentQuestionIndex]
     questionShow.innerHTML = currentQuestion.question
     
@@ -56,13 +59,20 @@ function selectAnswer(e){
             button.classList.add('correctBtn')
         }
         button.disabled = true
-        submitButton.style.display = "block"
     })
+    submitButton.style.display = "block"
 }
 
 function showScore(){
     removePreviousQuestion()
+    const container = document.getElementById("container")
+
     questionShow.innerHTML = `Kamu benar ${score} dan salah ${questionData.demit.length - score}`
+    const skor = document.createElement('p')
+    skor.innerHTML = `${Math.round((score * 100) / questionData.demit.length)} / 100`
+    skor.classList.add('skor')
+    answerButton.appendChild(skor)
+
     submitButton.style.marginTopv= "50px"
     submitButton.innerHTML = "Main Lagi"
 }
@@ -94,9 +104,25 @@ function preTest(){
         }else if(e.target.id == "demit"){
             questionData = demitQuestion
             startQuiz()
+        } else if(e.target.id == "emyu"){
+            removePreviousQuestion()
+            questionShow.style.marginBottom = "200px"
+            questionShow.innerHTML = "Belum jadi wak, kapan kapan lah ya lgi males buat nya wak 😅"
+            submitButton.addEventListener('click', () =>{
+                location.reload()
+            })
+            submitButton.innerHTML = "Balik"
+            submitButton.style.display = "block"
+        } else if(e.target.id == "commonQuestion"){
+            removePreviousQuestion()
+            questionShow.style.marginBottom = "200px"
+            questionShow.innerHTML = "Belum jadi wak, kapan kapan lah ya lgi males buat nya wak 😅"
+            submitButton.addEventListener('click', () =>{
+                location.reload()
+            })
+            submitButton.innerHTML = "Balik"
+            submitButton.style.display = "block"
         }
-        console.log("HALLO")
-        answerButton.id = "answerBtn"
     })
 
 }

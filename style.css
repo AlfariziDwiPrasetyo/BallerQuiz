@@ -7,10 +7,17 @@ body{
     color: black;
     font-weight:bold;
 }
+.title span{
+    color: rgb(255, 37, 37);
+}
 
 .container{
     width: 500px;
     margin: 0 auto;
+}
+.container h1{
+    margin-top: 40px;
+    text-align: center;
 }
 .container .btn{
     font-family: 'Poppins', sans-serif;
@@ -38,7 +45,7 @@ body{
     font-weight:bold;
     background-color: #000;
     color: #fff;
-    margin-top:20px;
+    margin-top:30px;
     width:100%;
     padding:10px 10px;
     border-radius: 4px;
@@ -51,7 +58,8 @@ body{
 }
 
 .submit:hover{
-    background-color: black;
+   transform: translateY(-2px);
+   transition: transform 0.2s ease;
 }
 .correctBtn{
     border-color:green;
@@ -74,9 +82,27 @@ body{
     transition: transform 0.3s ease;
 }
 
+.skor{
+    text-align: center;
+    font-size: 50px;
+    color: #000;
+    margin-top: 50px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
 .footer{
     margin-top: 100px;
     font-size: 13px;
     font-weight: bold;
     text-align: center;
 }
+
+@media only screen and (max-width:600px) {
+    .container h1{
+        margin-top: 50px;
+    }
+    .container{
+        width: 400px;
+    }
+  }
