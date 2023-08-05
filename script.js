@@ -1,5 +1,7 @@
 import demitQuestion from './demitQuestionBank.js'
 import deculQuestion from './deculQuestionBank.js'
+import munchenQuestion from './muncenQuestionBank.js';
+
 let questionData;
 
 const questionShow = document.getElementById("question")
@@ -113,15 +115,9 @@ function preTest(){
             })
             submitButton.innerHTML = "Balik"
             submitButton.style.display = "block"
-        } else if(e.target.id == "commonQuestion"){
-            removePreviousQuestion()
-            questionShow.style.marginBottom = "200px"
-            questionShow.innerHTML = "Belum jadi wak, kapan kapan lah ya lgi males buat nya wak 😅"
-            submitButton.addEventListener('click', () =>{
-                location.reload()
-            })
-            submitButton.innerHTML = "Balik"
-            submitButton.style.display = "block"
+        } else if(e.target.id == "munchen"){
+            questionData = munchenQuestion
+            startQuiz()
         }
     })
 

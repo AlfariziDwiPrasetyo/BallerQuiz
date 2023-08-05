@@ -1,124 +1,124 @@
 const munchenQuestion = {
     demit:[
         {
-            question:"Berapa banyak UCL Real Vardid 🏆🏆 ?",
+            question:"Berapa banyak Munchen Memenangkan Piala liga tani jerman 🏆🏆 ?",
             answer:[
-                {text:"0", correct:false},
-                {text:"15", correct:false},
-                {text:"10", correct:false},
-                {text:"14", correct:true}
+                {text:"32", correct:false},
+                {text:"28", correct:false},
+                {text:"30", correct:false},
+                {text:"31", correct:true}
         ]},
         {
-            question:"Siapa top scorer of all time di Real Mardid ⚽ ?",
+            question:"Siapa yang mencetak gol kemenangan final UCL thn 2013 ?",
             answer:[
-                {text:"CRISTIAANOOO SIUUUUU 🐐🐐", correct:true},
-                {text:"Raul Gonzalez", correct:false},
-                {text:"Ferenc Puskas", correct:false},
-                {text:"Wak Haji Benzema", correct:false}
+                {text:"CRISTIAANOOO SIUUUUU 🐐🐐", correct:false},
+                {text:"Franc Ribery", correct:false},
+                {text:"Arjen Robben", correct:true},
+                {text:"Mandzukic", correct:false}
         ]},
         {
-            question:"Siapa pemain yang paling banyak tampil di Real Madrid 🧔 ? ",
+            question:"Club apa yang mendepak bayern munchen dari UCL 🏆 pada semi final di tahun 2014-2015 ?",
             answer:[
-                {text:"Bang SIUUUUU CR7 🐐🐐", correct:false},
-                {text:"Raul Gonzalez", correct:false},
-                {text:"Sergio Ramoz", correct:true},
-            {text:"Alfredo de stefano", correct:false}
+                {text:"Real Mardid", correct:false},
+                {text:"BARKELONA", correct:true},
+                {text:"KING EMYUU 👑", correct:false},
+            {text:"Atletico Madrid", correct:false}
         ]},
         {
-            question:"Siapa kiper 🧤 terbaik real madrid pada tahun 1990 - 2000 an ? ",
+            question:"Pada musim 2018-2019, Bayern Munich dikalahkan oleh tim mana dalam babak 16 besar Liga Champions UEFA? ",
             answer:[
-                {text:"Fransisco Buyo", correct:false},
-                {text:"Iker Casillas", correct:true},
-                {text:"King David De Gea", correct:false},
-                {text:"Diego Lopez", correct:false}
+                {text:"Liverpool", correct:true},
+                {text:"Raja UCl ⚪️⚫️", correct:false},
+                {text:"Barcelona", correct:false},
+                {text:"Mancester KW 🔵⚪️", correct:false}
             ]},
             {
-                question:"Berapa piala UCL yang dimenangkan Real Marid saat dilatih oleh Jose Mourinho",
+                question:"Siapakah pencetak Gol di final UCL 2019-2020 melawan PSG ?",
                 answer:[
-                    {text:"1", correct:false},
-                    {text:"3", correct:false},
-                    {text:"0", correct:true},
-                    {text:"2", correct:false}
+                    {text:"Kingsley Coman", correct:true},
+                    {text:"Lewandowski", correct:false},
+                    {text:"Serge Gnabry", correct:false},
+                    {text:"Thomas Muller", correct:false}
                 ]},
             {
-                question:"Siapa Player legend yang dijuluki 'The Blonde Arrow' ?",
+                question:"Apa Julukan untuk supporter bayern Munich ?",
                 answer:[
-                    {text:"Ferenc Puskas", correct:true},
-                    {text:"THE GOAT CRISTIAAAANOOO", correct:false},
-                    {text:"Emilio Butragueno", correct:false},
-                    {text:"Hugo Sanchez", correct:false}
+                    {text:"Adolf Hitler", correct:false},
+                    {text:"Bobotoh", correct:false},
+                    {text:"Munchenians", correct:false},
+                    {text:"Die Roten", correct:true}
                 ]},
             {
-                question:"Dimana Santiago Bernabau berada 🏟️ ? ",
+                question:"Dimana Allianz Arena berada 🏟️ ? ",
                 answer:[
-                    {text:"Getage", correct:false},
-                    {text:"Cirebon ngalor sitik", correct:false},
-                    {text:"Alcoron", correct:false},
-                    {text:"Chamartin", correct:true}
+                    {text:"Berlin", correct:false},
+                    {text:"Frottmaning", correct:true},
+                    {text:"Alcaron", correct:false},
+                    {text:"Chamartin", correct:false}
                 ]},
             {
-                question:"Siapa yang mencetak gol kemenangan untuk real madrid saat final liga champion lawan bayern laverkusen ",
+                question:"Pada tahun berapa bayern munchen di kalahkan telak 0-5 😂 oleh monchengladbach ",
                 answer:[
-                    {text:"David Beckham", correct:false},
-                    {text:"Zinedine Zidane", correct:true},
-                    {text:"Roberto Carlos", correct:false},
-                    {text:"Cristiano Prasetyo 🐐🐐", correct:false}
+                    {text:"2021", correct:true},
+                    {text:"2022", correct:false},
+                    {text:"2023", correct:false},
+                    {text:"2019", correct:false}
                 ]},
             {
-                question:"Tim mana saja yang dikalahkan Real Madrid saat Final UCL thn 2016,2017,2018 secara berurutan ?",
+                question:"Siapa pemain munchen yang memiliki menit bermain paling banyak di UCL ?",
                 answer:[
-                    {text:"King Emyu, King Emyu, King Emyu", correct:false},
-                    {text:"Atletico Madrid, Juventus, Liverpool", correct:true},
-                    {text:"Liverpool, Juventus, Atletico Madrid", correct:false},
-                    {text:"Juventus, Liverpool, Atletico Madrid", correct:false}
+                    {text:"Robert Lewandowski", correct:false},
+                    {text:"Thomas Muller", correct:false},
+                    {text:"Manuel Neuer", correct:true},
+                    {text:"Arjen Robben", correct:false}
                 ]},
             {
-                question:"Siapa yang mengalahkan Real Madrid saat International Champions Cup 2018",
+                question:"Tahun berapa Arjen Robben keluar dari Munchen ?",
                 answer:[
-                    {text:"King Emyu 👑👑", correct:true},
-                    {text:"Barkelona", correct:false},
+                    {text:"2019-2020", correct:false},
+                    {text:"2018-2019", correct:true},
+                    {text:"2020-2021", correct:false},
+                    {text:"2017-2018", correct:false}
+                ]},
+            {
+                question:"Siapa pemain bayern munchen yang dijuluki 'Der Kaiser' ",
+                answer:[
+                    {text:"Gerd Muller", correct:false},
+                    {text:"Karl Heins-Ruminegge", correct:false},
+                    {text:"Oliver Kahn", correct:false},
+                    {text:"Franz Beckenbauer", correct:true}
+                ]},
+            {
+                question:"Siapa lawan bayern munchen pada saat final FIFA CLUB WORLD CUP 2013 ?",
+                answer:[
+                    {text:"Real Madrid", correct:false},
+                    {text:"Raja Casablanca", correct:true},
                     {text:"Liverpool", correct:false},
-                    {text:"Bayern Munchen", correct:false}
+                    {text:"Barcelona", correct:false}
                 ]},
             {
-                question:"Dibawah ini yang bukan pemain real madrid musim 2017/2018 adalah",
+                question:"Dimana final UCL 2019-2020 ?",
                 answer:[
-                    {text:"Kiko Casilla", correct:false},
-                    {text:"Lucas Vasquez", correct:false},
-                    {text:"Dani Ceballos", correct:false},
-                    {text:"Lucas Torro", correct:true}
+                    {text:"Cirebon", correct:false},
+                    {text:"Spanyol", correct:false},
+                    {text:"Portugal", correct:true},
+                    {text:"Inggris", correct:false}
                 ]},
             {
-                question:"Siapa presiden paling legendaris Real Mardid ?",
+                question:"Siapa pemasok seragam dan peralatan resmi klub Bayern Munchen ?",
                 answer:[
-                    {text:"Santiago Bernabeu", correct:true},
-                    {text:"Cristiano Prasetyo", correct:false},
-                    {text:"Julian Palacios", correct:false},
-                    {text:"Florentina Perez", correct:false}
-                ]},
-            {
-                question:"Berapa banyak real madrid memangkan Copa Del Rey ?",
-                answer:[
-                    {text:"18", correct:false},
-                    {text:"20", correct:true},
-                    {text:"19", correct:false},
-                    {text:"21", correct:false}
-                ]},
-            {
-                question:"Siapa pemasok seragam dan peralatan resmi klub real madrid ?",
-                answer:[
-                    {text:"Nike", correct:false},
+                    {text:"Bata", correct:false},
+                    {text:"Adidas", correct:true},
                     {text:"Puma", correct:false},
-                    {text:"Eiger", correct:false},
-                    {text:"Adiodas", correct:true}
+                    {text:"Nike", correct:false}
                 ]},
             {
-                question:"Apa nama supporter untuk real madrid ?",
+                question:"Siapa pemain termahal yang di beli munchen ?",
                 answer:[
-                    {text:"Demit", correct:false},
-                    {text:"Madridistas", correct:true},
-                    {text:"The Jak Mania", correct:false},
-                    {text:"The Red Devils", correct:false}
+                    {text:"Sadio Mane", correct:false},
+                    {text:"De Ligt", correct:false},
+                    {text:"Cristano Prasetyo", correct:false},
+                    {text:"Lucas Hernandez", correct:true}
                 ]},
     ]
 }
